@@ -1171,6 +1171,11 @@
   resolved "https://registry.npm.taobao.org/@vant/icons/download/@vant/icons-1.2.5.tgz#f3db43c4b300300829e3c4e909beaa33d1cbe786"
   integrity sha1-89tDxLMAMAgp48TpCb6qM9HL54Y=
 
+"@vant/weapp@^1.5.0":
+  version "1.5.0"
+  resolved "https://registry.npm.taobao.org/@vant/weapp/download/@vant/weapp-1.5.0.tgz#18b0b77ee8133eb53ffd6c1ed9cf70c51d24e736"
+  integrity sha1-GLC3fugTPrU//Wwe2c9wxR0k5zY=
+
 "@vue/babel-helper-vue-jsx-merge-props@^1.0.0":
   version "1.0.0"
   resolved "https://registry.npm.taobao.org/@vue/babel-helper-vue-jsx-merge-props/download/@vue/babel-helper-vue-jsx-merge-props-1.0.0.tgz#048fe579958da408fb7a8b2a3ec050b50a661040"
@@ -1635,6 +1640,11 @@ alphanum-sort@^1.0.0:
   version "1.0.2"
   resolved "https://registry.npm.taobao.org/alphanum-sort/download/alphanum-sort-1.0.2.tgz#97a1119649b211ad33691d9f9f486a8ec9fbe0a3"
   integrity sha1-l6ERlkmyEa0zaR2fn0hqjsn74KM=
+
+amfe-flexible@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.npm.taobao.org/amfe-flexible/download/amfe-flexible-2.2.1.tgz#353f00289e4d38ca88a21eb3854420308af0b559"
+  integrity sha1-NT8AKJ5NOMqIoh6zhUQgMIrwtVk=
 
 ansi-colors@^3.0.0:
   version "3.2.4"

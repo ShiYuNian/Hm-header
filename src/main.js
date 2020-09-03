@@ -5,14 +5,18 @@ import './styles/base.less'
 import './styles/iconfont.css'
 
 // import Vant from 'vant'
+import 'vant/lib/index.css'
 
-import { Button } from 'vant'
+import 'amfe-flexible'
 
-// import 'vant/lib/index.css'
+import HmHeader from './components/HmHeader.vue'
+
+import { Toast } from 'vant'
+Vue.prototype.$toast = Toast
+
+Vue.component('hm-header', HmHeader)
 // Vue.use(Vant)
-Vue.use(Button)
-// import Button from 'vant/lib/button'
-// import 'vant/lib/button/style'
+
 Vue.config.productionTip = false
 
 new Vue({
