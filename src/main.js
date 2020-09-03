@@ -10,12 +10,13 @@ import 'vant/lib/index.css'
 import 'amfe-flexible'
 
 import HmHeader from './components/HmHeader.vue'
-
+import HmLogo from './components/HmLogo.vue'
 import { Toast } from 'vant'
 
 Vue.prototype.$toast = Toast
 
 Vue.component('hm-header', HmHeader)
+Vue.component('hm-logo', HmLogo)
 // Vue.use(Vant)
 
 Vue.config.productionTip = false
