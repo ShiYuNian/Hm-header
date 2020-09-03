@@ -12,6 +12,7 @@ import 'amfe-flexible'
 import HmHeader from './components/HmHeader.vue'
 
 import { Toast } from 'vant'
+
 Vue.prototype.$toast = Toast
 
 Vue.component('hm-header', HmHeader)

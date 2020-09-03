@@ -1,6 +1,6 @@
 <template>
   <div>
-    登陆组件
+    <hm-header>登录</hm-header>
   </div>
 </template>
 

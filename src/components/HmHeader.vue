@@ -1,14 +1,45 @@
 <template>
   <div class="hm-header">
-    <div class="back"></div>
-    <span class="iconfont iconjiantou2"></span>
-    <div class="title">登录</div>
+    <div class="back" @click="back">
+      <span class="iconfont iconjiantou2"></span>
+    </div>
+    <div class="title">
+      <slot></slot>
+    </div>
     <div class="extra"></div>
   </div>
 </template>
 
 <script>
-export default {}
+export default {
+  methods: {
+    back () {
+      // this.$router.push()
+      // this.$router.back()
+      // this.$router.forward()
+      // this.$router.go(1)
+      // history.go(-1)
+      this.$router.go(-1)
+    }
+  }
+}
 </script>
 
-<style></style>
+<style lang="less">
+.hm-header {
+  height: 50px;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  text-align: center;
+  line-height: 50px;
+  .back,
+  .extra {
+    width: 50px;
+    font-size: 18px;
+    font-weight: 700px;
+  }
+  .title {
+    flex: 1;
+  }
+}
+</style>
